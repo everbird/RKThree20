@@ -637,6 +637,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -653,6 +654,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -660,6 +662,7 @@
 		250CA704147D94E00047D347 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = (
 					armv6,
 					armv7,
@@ -673,6 +676,7 @@
 					"\"$(BUILT_PRODUCTS_DIR)/../../three20\"",
 					"\"$(BUILT_PRODUCTS_DIR)/../include\"",
 					"\"$(BUILT_PRODUCTS_DIR)/../../include\"",
+					"\"$(BUILT_PRODUCTS_DIR)/../../Headers\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRIVATE_HEADERS_FOLDER_PATH = "$(PUBLIC_HEADERS_FOLDER_PATH)/Private";
@@ -685,6 +689,7 @@
 		250CA705147D94E00047D347 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = (
 					armv6,
 					armv7,
@@ -698,6 +703,9 @@
 					"\"$(BUILT_PRODUCTS_DIR)/../../three20\"",
 					"\"$(BUILT_PRODUCTS_DIR)/../include\"",
 					"\"$(BUILT_PRODUCTS_DIR)/../../include\"",
+					"\"$(BUILT_PRODUCTS_DIR)/../../Headers\"",
+					"\"$(SOURCE_ROOT)/../RestKit/Build\"",
+					"\"$(SOURCE_ROOT)/RestKit/Build\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRIVATE_HEADERS_FOLDER_PATH = "$(PUBLIC_HEADERS_FOLDER_PATH)/Private";
