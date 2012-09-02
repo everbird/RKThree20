@@ -19,7 +19,8 @@ at ../ in the containing project.
 1. Drag **RKThree20.xcodeproj** onto your project to create a cross-project reference.
 1. Configure a target dependency on the **RKThree20.a** library so that it is built with your project.
 1. Link the **RKThree20.a** library into your project.
-1. Import the RKThree20 headers: `#import <RestKit/Three20/Three20.h>`
+1. Set `Always Search User Paths` to Yes. 
+1. Import the RKThree20 headers: `#import <RKThree20/Three20.h>`
 
 ## Usage
 Leveraging RKThree20 requires an understanding of both the RestKit and Three20 frameworks. The best available documentation for RKThree20 is available by reading the code of the [RKDiscussionBoard](https://github.com/RestKit/RKDiscussionBoard) example project.
