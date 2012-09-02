@@ -22,8 +22,8 @@ at ../ in the containing project.
 1. Set `Always Search User Paths` to Yes. 
 1. Import the RKThree20 headers: `#import <RKThree20/Three20.h>`
 
-## Usage
-Leveraging RKThree20 requires an understanding of both the RestKit and Three20 frameworks. The best available documentation for RKThree20 is available by reading the code of the [RKDiscussionBoard](https://github.com/RestKit/RKDiscussionBoard) example project.
-
 ## Status
 This library was removed from the main RestKit codebase and is not supported. Patches and documentation are welcome, but the RestKit team is not actively developing the module.
+
+## Notice
+Currently `RKThree20` could bridge `Three20 1.0.6.2` between `RestKit 0.10.1` well enough. But the gap would get larger as both of them grows, and no one maintains this project right now. It seems wiser to hack on your owner rather than rely on an abondoned project. 
