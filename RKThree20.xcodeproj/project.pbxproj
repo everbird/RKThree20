@@ -174,6 +174,27 @@
 			remoteGlobalIDString = 25160D1514564E810060A5C5;
 			remoteInfo = RestKit;
 		};
+		625150EB15ECB6CC0010E2C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 251682AB1482D8410072C9CC /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 259C301615128079003066A2;
+			remoteInfo = RestKitResources;
+		};
+		625150F215ECB6CC0010E2C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2516826C1482D5EA0072C9CC /* Three20Network.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 662D81EF12630516005851C2;
+			remoteInfo = "Three20Network-Xcode3.2.5";
+		};
+		625150F415ECB6CC0010E2C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2516826C1482D5EA0072C9CC /* Three20Network.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 662D81B2126304EB005851C2;
+			remoteInfo = "Three20NetworkUnitTests-Xcode3.2.5";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -285,7 +306,9 @@
 			isa = PBXGroup;
 			children = (
 				251682861482D5EA0072C9CC /* libThree20Network.a */,
+				625150F315ECB6CC0010E2C3 /* libThree20Network-Xcode3.2.5.a */,
 				251682881482D5EA0072C9CC /* NetworkUnitTests.octest */,
+				625150F515ECB6CC0010E2C3 /* NetworkUnitTests-Xcode3.2.5.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -347,6 +370,7 @@
 				251682B51482D8410072C9CC /* RestKitTests.octest */,
 				251682B71482D8410072C9CC /* RestKit.framework */,
 				251682B91482D8410072C9CC /* RestKitFrameworkTests.octest */,
+				625150EC15ECB6CC0010E2C3 /* RestKitResources.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -577,6 +601,27 @@
 			remoteRef = 251682B81482D8410072C9CC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		625150EC15ECB6CC0010E2C3 /* RestKitResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitResources.bundle;
+			remoteRef = 625150EB15ECB6CC0010E2C3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		625150F315ECB6CC0010E2C3 /* libThree20Network-Xcode3.2.5.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libThree20Network-Xcode3.2.5.a";
+			remoteRef = 625150F215ECB6CC0010E2C3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		625150F515ECB6CC0010E2C3 /* NetworkUnitTests-Xcode3.2.5.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "NetworkUnitTests-Xcode3.2.5.octest";
+			remoteRef = 625150F415ECB6CC0010E2C3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -673,6 +718,7 @@
 					"\"$(BUILT_PRODUCTS_DIR)/../three20\"",
 					"\"$(BUILT_PRODUCTS_DIR)/../three20\"",
 					"\"$(SRCROOT)/../three20/Build/Products/three20\"",
+					"\"$(BUILT_PRODUCTS_DIR)/../../Headers\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRIVATE_HEADERS_FOLDER_PATH = "$(PUBLIC_HEADERS_FOLDER_PATH)/Private";
@@ -698,6 +744,7 @@
 					"\"$(BUILT_PRODUCTS_DIR)/../three20\"",
 					"\"$(BUILT_PRODUCTS_DIR)/../three20\"",
 					"\"$(SRCROOT)/../three20/Build/Products/three20\"",
+					"\"$(BUILT_PRODUCTS_DIR)/../../Headers\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRIVATE_HEADERS_FOLDER_PATH = "$(PUBLIC_HEADERS_FOLDER_PATH)/Private";
