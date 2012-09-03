@@ -26,4 +26,4 @@ at ../ in the containing project.
 This library was removed from the main RestKit codebase and is not supported. Patches and documentation are welcome, but the RestKit team is not actively developing the module.
 
 ## Notice
-Currently `RKThree20` could bridge `Three20 1.0.6.2` between `RestKit 0.10.1` well enough. But the gap would get larger as both of them grows, and no one maintains this project right now. It seems wiser to hack on your owner rather than rely on an abondoned project. 
+Currently `RKThree20` could bridge between `Three20 1.0.6.2` and `RestKit 0.10.1` well enough. But the gap would get larger as both of them grows. And no one maintains this project right now. It seems wiser to hack on your owner rather than rely on an abondoned project. 
