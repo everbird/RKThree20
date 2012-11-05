@@ -709,8 +709,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
 					armv6,
-					armv7,
 				);
 				DEPLOYMENT_LOCATION = NO;
 				DSTROOT = /tmp/RKThree20.dst;
@@ -722,6 +722,8 @@
 					"\"$(BUILT_PRODUCTS_DIR)/../include\"",
 					"\"$(BUILT_PRODUCTS_DIR)/../../include\"",
 					"\"$(BUILT_PRODUCTS_DIR)/../../Headers\"",
+					"\"$(SOURCE_ROOT)/../RestKit/Build\"",
+					"\"$(SOURCE_ROOT)/../../RestKit/Build\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRIVATE_HEADERS_FOLDER_PATH = "$(PUBLIC_HEADERS_FOLDER_PATH)/Private";
@@ -736,8 +738,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
 					armv6,
-					armv7,
 				);
 				DEPLOYMENT_LOCATION = NO;
 				DSTROOT = /tmp/RKThree20.dst;
