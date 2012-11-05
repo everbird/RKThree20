@@ -722,8 +722,8 @@
 					"\"$(BUILT_PRODUCTS_DIR)/../include\"",
 					"\"$(BUILT_PRODUCTS_DIR)/../../include\"",
 					"\"$(BUILT_PRODUCTS_DIR)/../../Headers\"",
-					"\"$(SOURCE_ROOT)/../RestKit/Build\"",
-					"\"$(SOURCE_ROOT)/../../RestKit/Build\"",
+					"\"$(SOURCE_ROOT)/../RestKit/Build/Headers\"",
+					"\"$(SOURCE_ROOT)/../../RestKit/Build/Headers\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRIVATE_HEADERS_FOLDER_PATH = "$(PUBLIC_HEADERS_FOLDER_PATH)/Private";
