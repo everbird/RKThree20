@@ -724,6 +724,8 @@
 					"\"$(BUILT_PRODUCTS_DIR)/../../Headers\"",
 					"\"$(SOURCE_ROOT)/../RestKit/Build/Headers\"",
 					"\"$(SOURCE_ROOT)/../../RestKit/Build/Headers\"",
+					"\"$(SOURCE_ROOT)/../three20/Build/Products/three20\"",
+					"\"$(SOURCE_ROOT)/../../three20/Build/Products/three20\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRIVATE_HEADERS_FOLDER_PATH = "$(PUBLIC_HEADERS_FOLDER_PATH)/Private";
@@ -753,6 +755,8 @@
 					"\"$(BUILT_PRODUCTS_DIR)/../../Headers\"",
 					"\"$(SOURCE_ROOT)/../RestKit/Build/Headers\"",
 					"\"$(SOURCE_ROOT)/RestKit/Build/Headers\"",
+					"\"$(SOURCE_ROOT)/../../three20/Build/Products/three20\"",
+					"\"$(SOURCE_ROOT)/../three20/Build/Products/three20\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRIVATE_HEADERS_FOLDER_PATH = "$(PUBLIC_HEADERS_FOLDER_PATH)/Private";
